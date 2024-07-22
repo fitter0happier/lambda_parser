@@ -1,4 +1,4 @@
-module Hw3 where
+module Eval where
 
 type Symbol = String
 data Expr = Var Symbol

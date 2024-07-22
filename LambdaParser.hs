@@ -1,9 +1,9 @@
-module Hw4 where
+module LambdaParser where
 
 import Control.Applicative
 import Data.Char
-import Parser
-import Hw3
+import Parser ( alphaNum, char, sat, sep, string, Parser(parse) )
+import Eval
 import Data.Map (Map)
 import qualified Data.Map as Map
 

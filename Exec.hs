@@ -1,5 +1,5 @@
-import Hw3
-import Hw4
+import Eval
+import LambdaParser
 
 main :: IO ()
 main = do 
